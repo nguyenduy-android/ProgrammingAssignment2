@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
   }
   ## Get this Matrix
   get <- function() { x }
-  ## Keep inverseMatrix after solving this matrix
+  ## Keep inverseMatrix after computing the inverse of matrix
   setinverse <- function(inverse) { invM <<- inverse }
   ## Get inverseMatrix
   getinverse <- function() { invM }
